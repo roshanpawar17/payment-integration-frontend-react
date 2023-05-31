@@ -23,7 +23,7 @@ function Payment(){
             if(res.data.status == "created"){
                 // open payment form
                 let options={
-                    key: "rzp_test_Q9o2CX6JIomOP9",
+                    key: "your_key_id",
                     amount: res.data.amount,
                     currency: "INR",
                     name: "Gaming Web Money",
